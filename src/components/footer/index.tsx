@@ -1,6 +1,3 @@
-import { FaWhatsapp, FaInstagram, FaPhone } from "react-icons/fa";
-
-
 export function Footer() {
     return (
       <footer className="bg-gray-200 border-1 mt-11 flex items-center justify-center p-5">
