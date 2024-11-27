@@ -1,5 +1,6 @@
 import { FaWhatsapp } from "react-icons/fa"
 
+
 export function Home() {
     return (
         <main>
@@ -7,8 +8,8 @@ export function Home() {
             <section className="mt-16 mx-8 flex flex-col gap-4">
                 <h1 className="max-w-52 font-extrabold text-3xl">A MELHOR DISTRIBUIDORA DE STELLA E REGIÃO</h1>
                 <div className="flex items-center gap-1">
-                    <a className="bg-black rounded-md text-white font-bold text-xl px-4 py-1 text-center self-start">Fale conosco</a>
-                    <FaWhatsapp className="size-8"/>
+                    <a href="https://api.whatsapp.com/send/?phone=%2B5571988545049&text&type=phone_number&app_absent=0" className="bg-black rounded-md text-white font-bold text-xl px-4 py-1 text-center self-start">Fale conosco</a>
+                    <a href="https://api.whatsapp.com/send/?phone=%2B5571988545049&text&type=phone_number&app_absent=0"><FaWhatsapp className="size-8"/></a>
                 </div>
                 <h3 className="font-semibold text-gray-500">Faça seu pedido pelo whatsapp</h3>
             </section>
