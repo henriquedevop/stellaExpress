@@ -52,23 +52,25 @@ export function Products() {
                 <span className="text-gray-400 text-sm mb-3 w-full text-center font-semibold">Tudo isso e muito mais</span>
                 <span className="text-gray-300 text-xs mb-3 w-full text-center font-semibold">Sempre consulte nossos vendedores para saber da disponibilidade</span>
             </div>
-            <div className="w-full h-20 mt-5 bg-black rounded-md">
-                <div className="bg-pratileira-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
-            </div>
-            <div className="w-full h-20 mt-5 bg-black rounded-md">
-                <div className="bg-wine-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
-            </div>
-            <div className="w-full h-20 mt-5 bg-black rounded-md">
-                <div className="bg-embalagem-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
-            </div>
-            <div className="w-full h-20 mt-5 bg-black rounded-md">
-                <div className="bg-tabacaria-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
-            </div>
-            <div className="w-full h-20 mt-5 bg-black rounded-md">
-                <div className="bg-snacks-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
-            </div>
-            <div className="w-full h-20 mt-5 bg-black rounded-md">
-                <div className="bg-bebidas-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
+            <div className="flex flex-wrap gap-5 justify-between">
+                <div className="lg:w-5/12 lg:h-40 w-full h-20 mt-5 bg-black rounded-md">
+                    <div className="lg:mt-0 lg:h-40 bg-pratileira-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
+                </div>
+                <div className="lg:w-5/12 lg:h-40 w-full h-20 mt-5 bg-black rounded-md">
+                    <div className="lg:mt-0 lg:h-40 bg-wine-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
+                </div>
+                <div className="lg:w-5/12 lg:h-40 w-full h-20 mt-5 bg-black rounded-md">
+                    <div className="lg:mt-0 lg:h-40 bg-embalagem-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
+                </div>
+                <div className="lg:w-5/12 lg:h-40 w-full h-20 mt-5 bg-black rounded-md">
+                    <div className="lg:mt-0 lg:h-40 bg-tabacaria-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
+                </div>
+                <div className="lg:w-5/12 lg:h-40 w-full h-20 mt-5 bg-black rounded-md">
+                    <div className="lg:mt-0 lg:h-40 bg-snacks-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
+                </div>
+                <div className="lg:w-5/12 lg:h-40 w-full h-20 mt-5 bg-black rounded-md">
+                    <div className="lg:mt-0 lg:h-40 bg-bebidas-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
+                </div>
             </div>
         </section>
     );
