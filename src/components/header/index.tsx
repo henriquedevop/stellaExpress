@@ -20,11 +20,11 @@ export function Header() {
             </div>
 
             <nav className="font-medium hidden md:flex gap-5">
-                <a>Home</a>
-                <a>Localização</a>
-                <a>Produtos</a>
-                <a>Quem somos</a>
-                <a>Contato</a>
+                <a href="#">Home</a>
+                <a href="#loc">Localização</a>
+                <a href="#products">Produtos</a>
+                <a href="#about">Quem somos</a>
+                <a href="#contact">Contato</a>
             </nav>
 
             <div className="md:hidden">

@@ -2,7 +2,7 @@ import { InboxIcon } from "@heroicons/react/16/solid";
 
 export function Products() {
     return (
-        <section className="mx-8 mt-8" id="products">
+        <section className="mx-8 mt-8 md:mx-16 lg:mx-24" id="products">
             <h3 className="font-extrabold text-3xl flex items-center gap-1">
                 Nossos Produtos <InboxIcon className="size-8" />
             </h3>

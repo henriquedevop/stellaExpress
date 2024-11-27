@@ -10,7 +10,7 @@ export function About() {
     }
 
     return (
-        <section className="mx-8 mt-8" id="about">
+        <section className="mx-8 mt-8 md:mx-16 lg:mx-24" id="about">
             <h3 className="font-extrabold text-3xl flex items-center gap-1">Quem somos <BuildingStorefrontIcon className="size-8"/></h3>
             <div className="bg-white rounded-lg w-full shadow-md mt-8">
                 <p className={`p-4 text-neutral-400 text-lg font-semibold ${isExpanded ? 'opacity-100' : 'line-clamp-5 opacity-90 w-full shadow-sm'}`}>
