@@ -45,10 +45,10 @@ export function Header() {
 
             {isMenuOpen && (
                 <div className="absolute top-full flex flex-col right-0 w-1/3 py-5 px-3 font-semibold bg-gray-200 gap-5 rounded-lg">
-                <a className="text-gray-800">Home</a>
-                <a className="text-gray-800">Localização</a>
-                <a className="text-gray-800">Produtos</a>
-                <a className="text-gray-800">Quem somos</a>
+                <a href="#" className="text-gray-800">Home</a>
+                <a href="#loc" className="text-gray-800">Localização</a>
+                <a href="#products" className="text-gray-800">Produtos</a>
+                <a href="#about" className="text-gray-800">Quem somos</a>
                 <a className="text-gray-800">Contato</a>
                 </div>
             )}

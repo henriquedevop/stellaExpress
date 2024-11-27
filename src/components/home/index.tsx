@@ -13,7 +13,7 @@ export function Home() {
                 <h3 className="font-semibold text-gray-500">Faça seu pedido pelo whatsapp</h3>
             </section>
 
-            <section className="mx-8 mt-8">
+            <section className="mx-8 mt-8" id="loc">
                 <h2 className="font-extrabold text-3xl">Nossa unidade</h2>
                 <div className="flex justify-center items-center my-8">
                     <div className="w-full max-w-4xl h-96 shadow-lg rounded-lg overflow-hidden border border-gray-200">
