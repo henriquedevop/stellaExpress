@@ -54,22 +54,22 @@ export function Products() {
             </div>
             <div className="flex flex-wrap gap-5 justify-between">
                 <div className="lg:w-5/12 lg:h-40 w-full h-20 mt-5 bg-black rounded-md">
-                    <div className="lg:mt-0 lg:h-40 bg-pratileira-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
+                    <div className="lg:mt-0 lg:h-40 bg-pratileira-bg w-full h-20 bg-cover bg-center opacity-50 rounded-md"></div>
                 </div>
                 <div className="lg:w-5/12 lg:h-40 w-full h-20 mt-5 bg-black rounded-md">
-                    <div className="lg:mt-0 lg:h-40 bg-wine-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
+                    <div className="lg:mt-0 lg:h-40 bg-wine-bg w-full h-20 bg-cover bg-center opacity-50 rounded-md"></div>
                 </div>
                 <div className="lg:w-5/12 lg:h-40 w-full h-20 mt-5 bg-black rounded-md">
-                    <div className="lg:mt-0 lg:h-40 bg-embalagem-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
+                    <div className="lg:mt-0 lg:h-40 bg-embalagem-bg w-full h-20 bg-cover bg-center opacity-50 rounded-md"></div>
                 </div>
                 <div className="lg:w-5/12 lg:h-40 w-full h-20 mt-5 bg-black rounded-md">
-                    <div className="lg:mt-0 lg:h-40 bg-tabacaria-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
+                    <div className="lg:mt-0 lg:h-40 bg-tabacaria-bg w-full h-20 bg-cover bg-center opacity-50 rounded-md"></div>
                 </div>
                 <div className="lg:w-5/12 lg:h-40 w-full h-20 mt-5 bg-black rounded-md">
-                    <div className="lg:mt-0 lg:h-40 bg-snacks-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
+                    <div className="lg:mt-0 lg:h-40 bg-snacks-bg w-full h-20 bg-cover bg-center opacity-50 rounded-md"></div>
                 </div>
                 <div className="lg:w-5/12 lg:h-40 w-full h-20 mt-5 bg-black rounded-md">
-                    <div className="lg:mt-0 lg:h-40 bg-bebidas-bg w-full h-20 mt-5 bg-cover bg-center opacity-50 rounded-md"></div>
+                    <div className="lg:mt-0 lg:h-40 bg-bebidas-bg w-full h-20 bg-cover bg-center opacity-50 rounded-md"></div>
                 </div>
             </div>
         </section>
