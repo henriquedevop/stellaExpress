@@ -21,7 +21,7 @@ export function About() {
                 Contamos também com artigos de tabacaria. Tudo em embalagens… Entregamos em Stella Maris, Praia do flamengo e Farol de Itapuã. 
                 Venha comprar sua bebida conosco, nos ligue ou chame pelo WhatsApp que também levamos até você para sua maior comodidade." 
                 </p>
-                <button onClick={toggleReadMore} className="px-4 underline">{isExpanded ? 'Ler menos' : 'Ler mais'}</button>
+                <button onClick={toggleReadMore} className={`px-4 underline p-1 rounded-md ${isExpanded ? 'bg-neutral-200' : 'bg-black text-white'}`}>{isExpanded ? 'Ler menos' : 'Ler mais'}</button>
             </div>
         </section>
     )
