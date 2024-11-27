@@ -49,7 +49,7 @@ export function Header() {
                 <a href="#loc" className="text-gray-800">Localização</a>
                 <a href="#products" className="text-gray-800">Produtos</a>
                 <a href="#about" className="text-gray-800">Quem somos</a>
-                <a className="text-gray-800">Contato</a>
+                <a href="#contact" className="text-gray-800">Contato</a>
                 </div>
             )}
 

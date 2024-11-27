@@ -1,4 +1,4 @@
-import { PhoneIcon } from "@heroicons/react/16/solid"
+import { FaWhatsapp } from "react-icons/fa"
 
 export function Home() {
     return (
@@ -8,7 +8,7 @@ export function Home() {
                 <h1 className="max-w-52 font-extrabold text-3xl">A MELHOR DISTRIBUIDORA DE STELLA E REGIÃO</h1>
                 <div className="flex items-center gap-1">
                     <a className="bg-black rounded-md text-white font-bold text-xl px-4 py-1 text-center self-start">Fale conosco</a>
-                    <PhoneIcon className="size-8"/>
+                    <FaWhatsapp className="size-8"/>
                 </div>
                 <h3 className="font-semibold text-gray-500">Faça seu pedido pelo whatsapp</h3>
             </section>
